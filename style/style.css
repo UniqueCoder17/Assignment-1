@@ -58,6 +58,8 @@
 .frist-Section-child-3 {
     display: flex;
     justify-content: space-between;
+    padding: 48px;
+    margin-top: 32px;
 }
 
 
@@ -144,4 +146,41 @@
     margin: 32px 0px;
     flex-grow: 0;
     border-radius: 8px;
+}
+
+.my-inspiration {}
+
+.inspiration {
+    position: absolute;
+    width: 1140px;
+    height: 775px;
+    left: 170px;
+    right: 152px;
+    top: 2150px;
+    bottom: 2130px;
+}
+
+.inspiration-title {
+    position: static;
+    width: 1140px;
+    height: 113px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0px 14px 28px;
+}
+
+.video {
+    position: static;
+    width: 1140px;
+    height: 614px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 32px;flex: none;
+    align-self: stretch;
+    margin: 28px 0px;
 }
