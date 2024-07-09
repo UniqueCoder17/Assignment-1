@@ -1,0 +1,130 @@
+.azeret-mono-normal {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.parent {
+    margin-top: 43rem
+}
+
+.parent-frist-section {
+    padding: 80px 97px;
+    margin: 74px 100px 88px;
+}
+
+.frist-Section-title {
+    text-align: center;
+
+}
+
+.frist-Section-sub-title {
+    text-align: center;
+}
+
+.frist-Section-child-1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 48px;
+    margin-top: 45px;
+}
+
+.frist-Section-child-2 {
+    display: flex;
+    justify-content: flex-start;
+    padding: 48px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.frist-Section-child-3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.frist-Section-sub-child-1 {
+    width: 50%;
+}
+
+.frist-Section-sub-child-2 {
+    width: 50%;
+    margin: 0px 32px;
+}
+
+.frist-Section-sub-child-3 {
+    width: 50%;
+}
+
+.btn-sub-child {
+    margin: 25px 0px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.nav-banner {
+    background-image: url("../assets/Hero-bg.png");
+    position: absolute;
+    width: 1500px;
+    height: 680px;
+    top: 0px;
+    bottom: 0px;
+}
+
+.div-banner {
+    position: absolute;
+    width: 998px;
+    height: 582px;
+    left: 221px;
+    right: 221px;
+    top: 26px;
+    bottom: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+}
+
+.banner-title {
+    color: rgb(13, 19, 33);
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 68px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 24px 0px;
+}
+
+.banner-sub-title {
+    display: flex;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    letter-spacing: 0%;
+}
+
+.btn {
+    color: rgb(255, 255, 255);
+    background-color: rgb(13, 19, 33);
+    position: static;
+    width: 200px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    padding: 21px 24px;
+    margin: 32px 0px;
+    flex-grow: 0;
+    border-radius: 8px;
+}
