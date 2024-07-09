@@ -5,7 +5,7 @@
     font-style: normal;
 }
 
-.parent {
+.content {
     margin-top: 43rem
 }
 
@@ -14,13 +14,30 @@
     margin: 74px 100px 88px;
 }
 
+.div-title {
+    position: static;
+    width: 952px;
+    height: 115px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    margin: 0px 75px;
+}
+
 .frist-Section-title {
     text-align: center;
-
 }
 
 .frist-Section-sub-title {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
     text-align: center;
+
 }
 
 .frist-Section-child-1 {
