@@ -35,6 +35,10 @@
     margin: 74px 100px 88px;
 }
 
+a {
+    text-decoration: none;
+}
+
 .div-title {
     position: static;
     width: 952px;
