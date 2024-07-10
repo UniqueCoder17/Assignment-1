@@ -5,6 +5,27 @@
     font-style: normal;
 }
 
+/* style */
+.color-1{
+    background-color:rgba(255, 76, 30, 0.05) ;
+}
+
+.color-2{
+background-color: rgba(0, 76, 232, 0.05);
+}
+
+.color-3{
+    background-color: rgba(255, 223, 0, 0.05);
+}
+
+.h1 {
+    color: rgb(13, 19, 33);
+}
+
+.content-h1 {
+    color: rgba(13, 19, 33, 0.7);
+}
+
 .content {
     margin-top: 43rem
 }
@@ -148,8 +169,6 @@
     border-radius: 8px;
 }
 
-.my-inspiration {}
-
 .inspiration {
     position: absolute;
     width: 1140px;
@@ -180,7 +199,80 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    padding: 32px;flex: none;
+    padding: 32px;
+    flex: none;
     align-self: stretch;
     margin: 28px 0px;
 }
+
+.current-target-section {
+    position: absolute;
+    width: 1140px;
+    height: 1437px;
+    left: 150px;
+    right: 150px;
+    top: 3000px;
+}
+
+.top{
+    margin-top: 0px;
+}
+
+.target {
+    position: static;
+    width: 946px;
+    height: 113px;
+    padding: 0px 47px 0px;
+    margin: 0px 97px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+}
+
+.target-title {
+    position: static;
+    width: 852px;
+    height: 113px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    padding: 0px;
+}
+
+.current-target-div {
+    position: static;
+    width: 1140px;
+    height: 299px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    margin: 50px;
+    gap: 24px;
+}
+
+.current-target-div-1{
+padding: 50px;
+position: static;
+width: 284px;
+height: 219px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+}
+
+.a-color {
+    color: rgb(13, 19, 33);
+}
+
+.p-color {
+    color: rgb(13, 19, 33);
+}
+
+
